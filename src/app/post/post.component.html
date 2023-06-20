@@ -1,0 +1,9 @@
+<p>post works!</p>
+<button (click) = "addNewData()">Add New</button>
+<button (click) = "deleteData()">Delete</button>
+
+<ul>
+    <li *ngFor = "let post of posts">
+        {{post.postTitle}}
+    </li>
+</ul>
